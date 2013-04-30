@@ -1,27 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
 
 <link href="static/css/style.css" rel="stylesheet">
-  <script src="http://code.jquery.com/jquery.min.js"></script>
 
 
-    <script src='static/js/jquery.color-RGBa-patch.js'></script>
-    <script src='static/js/example.js'></script>
+
   <title>NCATE | UPRB</title>
 
 
   <title>NCATE | UPRB</title>
   <!-- Le styles -->
-  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+  <link href="static/css/bootstrap.css" rel="stylesheet">
 
 
+<!--[if lt IE 9]><script src="static/css/bootstrap.min.css"></script><![endif]-->
 
   <style type="text/css">
   body { padding-top: 60px; padding-bottom: 40px; }
   </style>
 
-  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
+  <!--[if lt IE 9]><script src="static/css/bootstrap-responsive.min.css"></script><![endif]-->
+
 
   <link href="static/css/main.css" rel="stylesheet">
 
@@ -31,37 +33,50 @@
 <!--[if IE 7]>
     <link rel="stylesheet" href="static/css/font-awesome-ie7.min.css">
 <![endif]-->
+
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+
+  <script src='static/js/jquery.color-RGBa-patch.js'></script>
+  <script src='static/js/example.js'></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-transition.js"></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-modal.js"></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
+
+
   </head>
   <body>
     <div class="row" id = "header">
           <div class="container">
 
+      <a href="http://www.ncate.org/">
         <div class="span4 pull-left">
-
+        
           <img src="static/img/ncate.png" alt="UPRB|NCATE">
           <br><p style="color: #2882AD;"><b>The Standard of Excellence <br>
           <span style="padding-right: 35px;">In Teacher Preparation </span></b></p>
         </div>
+      </a>
 
-          <div class="span3" >
-            <br>
-            <br><br>
+          <div class="span3" style="margin-top:69px;">
          <div class="nav-wrap">   
-          <ul class="group" id="example-one">
+          <ul class="group" id="example-one" style="width:420px;">
             <li class="current_page_item">
-              <a><i class="icon-home"></i>Home</a>
+              <a>
+                <i class="icon-home"></i>Home</a>
             </li>
-            <li><a href="#">SPAS</a></li>
+            <li><a href="spas.html">SPAS</a></li>
             <li><a href="#"><i class="icon-folder-close"></i>Files</a></li>
-            <li><a href="#"><i class="icon-user"></i>Contact Us</a></li>
+            <li><a href="contact.html"><i class="icon-user"></i>Contact Us</a></li>
            </ul>
           </div>
         </div>
 
-
+        <a href="http://www.uprb.edu/">
            <div class="span3 pull-right">
             <img src="static/img/uprb.png" alt="UPRB|NCATE">
           </div>
+        </a>
 </div>
     </div>
      <hr style="margin-top:0; margin-bottom:2px;">
@@ -71,22 +86,27 @@
       <!-- Main hero unit for a primary marketing message or call to action -->
         <div class="row main" >
           
-          <div class ="span6 ncate-wrapper" >
+          <div class ="span7 ncate-wrapper"  style="margin:0px; width:630px;">
             <div style="padding: 0px 50px 0px 50px; text-align: justify;">
-              <h1 class="text-center" id="welcome" style="font-size: 70px;">Welcome</h1>
-              <h2 class="text-center" id="sub-welcome">NCATE-UPRB</h2>
+              <h1 class="text-center" id="welcome" style="font-size: 70px; margin: 2px 0px 20px 0px">Welcome</h1>
+              
 
   
               <p class="ncate-text" style="font-size: 15px;">
-               La Oficina de Acreditación del Programa de Preparación de Maestros-NCATE es la encargada de recopilar la información necesaria para evidenciar el desarrollo y el aprendizaje de los estudiantes de los departamentos de educacion fisica y pedagogia, y de esta forma obtener la acreditación de la Agencia Acreditadora NCATE.             
+               La Oficina de Acreditación de NCATE del Programa de Preparación de Maestros de la universidad de Puerto Rico en Bayamón (TPP-UPRB) es la responsable de recopilar la información para evidenciar el desarrollo y el aprendizaje de los candidatos a maestros de Educacion Fisica y Pedagogia(Preescolar y Elemental), en cumplimiento de los estandares de NCATE y los programas especializados: NAEYC, ACEI, and NASPE.             
               </p>
-            <div id="randomQuoteChild" style="padding: 0px 80px 0px 0px;">
-            </div> 
+              <p class="ncate-text" style="font-style:italic;">
+
+                The Office of NCATE Acreditation of the Teacher Preparation Program at the university of Puerto Rico - Bayamón (TTP-UPRB) is responsible for the collection of data to evidence the learning and development of the teacher candidates in Preschool, Elementary Education and Adapted Physical Education, in compliance with NCATE standards and specialized Programs: NAEYC, ACEI, and NASPE.
+              </p>
+            
+            
           </div>
+          
         </div>
 
           
-          <div class="span6">
+          <div class="span6" style="widht:540px;margin:0px;">
             <div id="myCarousel" class="carousel slide">
               <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -109,12 +129,33 @@
 
             
             </div>
-          </div>  
 
-        </div>      
+          </div>  
+        </div>    
 
     </div>
-    
+
+
+    <div class="container">
+      <div class="row">
+
+<!--
+      <div class = "span12" style="color:black; padding-top: 10px;">
+          
+            <div style=" font-size: 40px; margin-bottom:10px;">
+               “ La Educacion No Cambia El Mundo<br> 
+            </div> 
+            <div style=" font-size: 35px; margin-bottom: 10px;">
+              <center>
+                Cambia A Las Personas Que Van A Cambiar  El Mundo”<br> 
+              </center>
+            </div>
+            <div style="color:#666; font-size: 30px;"> <center>  Paulo Freire</center> 
+            </div> 
+          </div> 
+      </div>
+    </div>
+-->
 
 <div class="container">
       <div class="row">
@@ -156,10 +197,10 @@
 
           <div class="span4">
           
-          <h3 class="ncate-title"style="text-align: center;"><i class="icon-group"></i>
+          <h3 class="ncate-title"style="text-align: center; margin: 0px;"><i class="icon-group"></i>
             Vision
           </h3>
-            <p class="ncate-text">
+            <p class="ncate-text" style="margin: 0px;">
          The TTP-UPRB is a diverse active learning community. It facilitates the development of intellectual candidates committed to social justice from a social-humanistic perspective. 
             </p>
           
@@ -192,7 +233,9 @@
 
          <div class="span5">
           
-          <img class="img-polaroid"src="static/img/Conceptual Framework.png" alt="Conceptual Framework"></img>
+          <img class="img-polaroid"src="static/img/Conceptual Framework.png" alt="Conceptual Framework">
+            
+          </img>
           
 
         </div>
@@ -207,7 +250,7 @@
 <div class="container">
       <div class="row">
          <div class="span12"> <h2 class="ncate-title"style="text-align: center;">
-            <i class="icon-briefcase"></i> UPRB - TEACHER CANDIDATE COMPETENCIES
+            <i class="icon-briefcase"></i> UPRB - Teacher Candidate Competencies
 
             <!--<i class="icon-arrow-right"></i>-->
           </h2></div>
@@ -284,7 +327,7 @@
 
       <div class="container">
         <table class="table table-bordered table-hover" style="width: 100%;">
-          <caption><h2 class="ncate-title">Teacher Preparation Program UPRB Unit-Level Pass Rate on Teacher Certificatio Test and Comparison With StateWide Pass rate Data</h2>
+          <caption><h2 class="ncate-title">Teacher Preparation Program UPRB Unit-Level Pass Rate on Teacher Certification Test and Comparison With StateWide Pass Rate Data</h2>
             <br>
           </caption>
           <thead>
@@ -321,7 +364,8 @@
             </tr>
  
              <tr class="info">
-              <td ><strong>Part A: Fundamental Knoledge and <br> Communication Competencies</strong> Minimum <br>Passing Rate since 2007: Part B - 92
+              <td ><strong>Part A: Fundamental Knoledge and <br>Communication Competencies</strong> <br>
+                <small>Minimum Passing Rate since 2007: Part B - 92</small>
               </td>
               <td style="text-align: center; vertical-align: middle;">  </td> 
               <td style="text-align: center; vertical-align: middle;"></td>
@@ -334,7 +378,7 @@
             </tr>
 
             <tr class="info">
-              <td ><strong> Part B: Professional Competencies - <br> Elementary Level</strong> Minimum  <br>Passing Rate since 2007: Part B - 89 
+              <td ><strong> Part B: Professional Competencies - <br> Elementary Level</strong> <br><small>Minimum  Passing Rate since 2007: Part B - 89 </small>
               </td>
               <td style="text-align: center; vertical-align: middle;"></td> 
               <td style="text-align: center; vertical-align: middle;"></td>
@@ -356,7 +400,7 @@
               <td style="text-align: center; vertical-align: middle;">82%</td>
               <td style="text-align: center; vertical-align: middle;">79%</td>
               <td style="text-align: center; vertical-align: middle;">86%</td>
-              <td>74%</td>
+              <td style="text-align: center; vertical-align: middle;">74%</td>
 
             </tr>
 
@@ -367,30 +411,33 @@
       </div>
 
 
-<div style="background-color: #3F3F3F; color: white; font-size: 16px">
-    <div class="row">
+    
+
+    </div>
+
+
+</div>
+
+<div class="row" style="background-color: #3F3F3F; color: white; font-size: 16px; ">
+
       <div class="container">
         <div class="span6">
-          <p style="padding-top: 10px;">Industrial Minillas 170 Carr 174 Bayamón, PR, 00959-1919
+          <p style="padding-top: 15px;">Industrial Minillas 170 Carr 174 Bayamón, PR, 00959-1919
           <br>
           <i class="icon-phone"></i> (787) 993-0000, Ext. 4333 
           <i class="icon-envelope"style="margin-left: 40px;"></i> ncate.uprb@uprb.edu  
 
           </p>
         </div>
-      <div class="pull-right">
-        <img src="static/img/uprbLogo.png" alt="UPRBLogo" style="width: 85px;position: absolute;top: 2413px;">
-      </div>
 
-    </div>
-
+          <img class="pull-right" src="static/img/uprbLogo.png" alt="UPRBLogo" style="width: 85px;position: relative; bottom:15px; margin-bottom: -10px;">
+ 
     </div>
 </div>
 
   <!-- Le javascript
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-    <script src='static/js/randomQuote.js'></script>
     <script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-transition.js"></script>
   <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
     <script>

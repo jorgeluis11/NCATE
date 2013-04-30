@@ -1,27 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
 
 <link href="static/css/style.css" rel="stylesheet">
-  <script src="http://code.jquery.com/jquery.min.js"></script>
 
 
-    <script src='static/js/jquery.color-RGBa-patch.js'></script>
-    <script src='static/js/example.js'></script>
+
   <title>NCATE | UPRB</title>
 
 
   <title>NCATE | UPRB</title>
   <!-- Le styles -->
-  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+  <link href="static/css/bootstrap.css" rel="stylesheet">
 
 
+<!--[if lt IE 9]><script src="static/css/bootstrap.min.css"></script><![endif]-->
 
   <style type="text/css">
   body { padding-top: 60px; padding-bottom: 40px; }
   </style>
 
-  <link href="http://twitter.github.com/bootstrap/assets/css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="static/css/bootstrap-responsive.css" rel="stylesheet">
+  <!--[if lt IE 9]><script src="static/css/bootstrap-responsive.min.css"></script><![endif]-->
+
 
   <link href="static/css/main.css" rel="stylesheet">
 
@@ -31,6 +33,16 @@
 <!--[if IE 7]>
     <link rel="stylesheet" href="static/css/font-awesome-ie7.min.css">
 <![endif]-->
+
+  <script src="http://code.jquery.com/jquery.min.js"></script>
+
+  <script src='static/js/jquery.color-RGBa-patch.js'></script>
+  <script src='static/js/example.js'></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-transition.js"></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-modal.js"></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-collapse.js"></script>
+  <script src="https://raw.github.com/twitter/bootstrap/master/js/bootstrap-carousel.js"></script>
+
   </head>
   <body>
     <div class="row" id = "header">
@@ -47,13 +59,13 @@
             <br>
             <br><br>
          <div class="nav-wrap">   
-          <ul class="group" id="example-one">
-            <li class="current_page_item">
-              <a><i class="icon-home"></i>Home</a>
+          <ul class="group" id="example-one" style="width:420px;">
+            <li >
+              <a href="index.html"><i class="icon-home"></i>Home</a>
             </li>
-            <li><a href="#">SPAS</a></li>
+            <li><a href="spas.html">SPAS</a></li>
             <li><a href="#"><i class="icon-folder-close"></i>Files</a></li>
-            <li><a href="#"><i class="icon-user"></i>Contact Us</a></li>
+            <li class="current_page_item"><a><i class="icon-user"></i>Contact Us</a></li>
            </ul>
           </div>
         </div>
@@ -74,22 +86,23 @@
     <div class="span12">
 
  <table class="table table-hover" >
-   <caption><h2 class="ncate-title">Teacher Preparation Program</h2>
+   <caption><br style="margin: 0px;">
+    <h1 style="font-size:50px; margin-bottom:8px;">Teacher Preparation Program</h1>
             <br>
           </caption>
   <thead>
   <tr style="background-color: rgba(133, 158, 170,0.6);">
-    <td style="text-align: center; font-size:40px;"> <strong> UPRB </strong></td>
-    <td style="text-align: center; font-size:40px;"><strong> PPM </strong</td>
-    <td style="text-align: center; font-size:40px;"><strong> NCATE </strong></td>
+    <td style="text-align: center; font-size:48px; height: 50px; vertical-align: middle;"> <strong> UPRB </strong></td>
+    <td style="text-align: center; font-size:48px; vertical-align: middle"><strong> PPM </strong</td>
+    <td style="text-align: center; font-size:48px; vertical-align: middle"><strong> NCATE </strong></td>
   </tr>
   </thead>
   <tr class="info">
     <td style="text-align: center;">
-      <strong><a href="http://www.uprb.edu/es/rectoria/rectoria_principal.htm" target="_blank">Rectoría</a> </strong><br />
+      <strong><a href="http://www.uprb.edu/es/rectoria/rectoria_principal.htm" target="_blank" style =  "color: #0000EE; font-size:26px;">Rectoría</a> </strong><br />
       Dr. Arturo Avilés González, <br> <br />
 
-      <strong><a href="http://www.uprb.edu/es/academico/academico_principal.htm" target="_blank">Decanato de Asuntos Académicos</a> </strong> <br />
+      <strong><a href="http://www.uprb.edu/es/academico/academico_principal.htm" target="_blank" style =  "color: #0000EE; font-size:25px;">Decanato de Asuntos Académicos</a> </strong> <br />
       Dra. Edna Miranda Rodríguez<br />
       Decana Académica  <br />
       <br />
@@ -107,21 +120,23 @@
     <!-- Segunda columna -->
     <td class="info" style="text-align: center;">
 
-      <strong> <a href="http://www.uprb.edu/es/academico/departamentos/edpe/edpe_principal.htm"> Departamento de Pedagogía</a> </strong> <br />
+      <strong> <a href="http://www.uprb.edu/es/academico/departamentos/edpe/edpe_principal.htm" style =  "color: #0000EE; font-size:25px;"> Departamento de Pedagogía</a> </strong> <br />
       Dra. Isabel Febles<br />
       Coordinadora de Asuntos Docentes<br />
-     <br /><br />
+     <br />
 
       Dra. María V. Rivera Colón<br />
       Coordinadora de Asuntos Administrativos<br />
      <br />
 
-      <strong> <a href="http://www.uprb.edu/es/academico/departamentos/edfi/edfi_principal.htmm"> Departamento de Educación Física</a> </strong><br />
+      <strong> <a href="http://www.uprb.edu/es/academico/departamentos/edfi/edfi_principal.htmm" style =  "color: #0000EE; font-size:25px;"> Departamento de Educación Física</a> </strong><br />
       Prof. Carlos Marichal Lugo<br />
+      Director<br />
+
       <br>  
       Srta. Sheily M. González Soto <br />
       Secretaria Administrativa<br />
-
+<br>
       Sr. Jorge L. Pérez López <br />
       Estudiante jornal <br />
     </td>
@@ -130,7 +145,7 @@
     <!-- Tercera Columna -->
     <td style="text-align: center;">
 
-     <a href="sdf"> <strong style =  "color: #0000EE;">NCATE - Staff</strong></a><br />
+     <a href="sdf"> <strong style =  "color: #0000EE; font-size:25px;">NCATE - Staff</strong></a><br />
      Prof. Rosalina Burgos Gil<br />
      Coordinadora NCATE<br />
 
@@ -138,9 +153,9 @@
      Dra. María V. Rivera Colón<br />
      Coordinadora Assessment NCATE<br />
      
-
+<br>
      
-     <strong style =  " color: #00FF00;">SPAS-NASPE </strong> <br />
+     <strong style ="color: #0000EE; font-size:25px;">SPAS-NASPE </strong> <br />
      Dr. Amaury Samalot <br />
      <br />
      SPAS- ACEI: <br />
@@ -156,6 +171,29 @@
 </table>
 </div>
 </div>
+</div>
+
+
+
+<div style="background-color: #3F3F3F; color: white; font-size: 16px" class="footer">
+    <div class="row">
+      <div class="container">
+        <div class="span6">
+          <p style="padding-top: 10px;">Industrial Minillas 170 Carr 174 Bayamón, PR, 00959-1919
+          <br>
+          <i class="icon-phone"></i> (787) 993-0000, Ext. 4333 
+          <i class="icon-envelope"style="margin-left: 40px;"></i> ncate.uprb@uprb.edu  
+
+          </p>
+        </div>
+
+        <div class="pull-right">
+          <img src="static/img/uprbLogo.png" alt="UPRBLogo" style="width: 85px;position: relative; bottom:15px;">
+        </div>
+
+    </div>
+
+    </div>
 </div>
   </body>
 </html>

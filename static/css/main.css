@@ -40,6 +40,7 @@ a:hover
 .ncate-text
 {
 	line-height: 26px;
+	text-align: justify;
 }
 #header
 {
@@ -106,4 +107,47 @@ blockquote
 {
 	margin-left: 20px;
 	border-color: black;
+}
+
+#quote
+{
+	background-color: #B8E5D8;
+	color:white;
+	font-size: 40px;
+	padding: 0px;
+
+}
+
+
+/* LIST #2 */
+#list2 { width:320px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }
+
+
+
+
+/* Acordition */
+.accordion-group:hover
+{
+		color:black;
+
+}
+.accordion-heading:hover
+{
+
+background: -moz-linear-gradient(top,  rgba(113,189,227,1) 0%, rgba(113,189,227,0.53) 2%, rgba(113,189,227,0.53) 44%, rgba(255,255,255,0.53) 99%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(113,189,227,1) ), color-stop(2%,rgba(5,138,205,1)), color-stop(44%,rgba(113,189,227,0.53)), color-stop(99%,rgba(255,255,255,0.53))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(113,189,227,1)  0%,rgba(113,189,227,1)  2%,rgba(113,189,227,0.53) 44%,rgba(255,255,255,0.53) 99%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(113,189,227,1)  0%,rgba(113,189,227,1)  2%,rgba(113,189,227,0.53) 44%,rgba(255,255,255,0.53) 99%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(113,189,227,1)  0%,rgba(113,189,227,1)  2%,rgba(113,189,227,0.53) 44%,rgba(255,255,255,0.53) 99%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(113,189,227,1)  0%,rgba(113,189,227,1)  2%,rgba(113,189,227,0.53) 44%,rgba(255,255,255,0.53) 99%); /* W3C */
+	border:none; 
+}
+
+.accordion-heading:hover a
+{
+	color:black;
 }
