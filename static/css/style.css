@@ -15,7 +15,7 @@ a:hover { color: black; }
 .nav-wrap { 
 	border-top:    2px solid black; 
 	border-bottom: 2px solid black; 
-	width: 352px;
+	width: 369px;
 }
 
 /* Clearfix */
@@ -29,7 +29,7 @@ a:hover { color: black; }
 	margin: 0 auto; 
 	list-style: none; 
 	position: relative; 
-	width: 960px; 
+	width: 1000px; 
 }
 #example-one li { 
 	display: inline-block;	
